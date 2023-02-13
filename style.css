@@ -112,10 +112,11 @@ nav .profile i:nth-child(-n + 2) {
 
 .course-items .content button {
   padding: 4px 7px;
-  background-color: pink;
+  background-color: #ff9494;
   border: none;
   border-radius: 4px;
   margin-top: 10px;
+  color: white;
 }
 .course-items {
   overflow-x: scroll;
@@ -126,4 +127,29 @@ nav .profile i:nth-child(-n + 2) {
 
 .course-items::-webkit-scrollbar {
   display: none;
+}
+.features-section {
+  padding: 2rem;
+}
+
+.feature-card-container .arrow img {
+  width: 50px;
+}
+.feature-card-container .feature-card {
+  width: 200px;
+  text-align: center;
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.feature-card-container .feature-card .feature-icon i {
+  background-color: black;
+  border-radius: 50%;
+  padding: 1rem;
+  color: rgb(29, 201, 29);
+  font-size: 30px;
+}
+
+.feature-card .feature-box {
+  margin: 2rem 0;
 }
