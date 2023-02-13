@@ -14,3 +14,21 @@ function showNextImage() {
 }
 
 setInterval(showNextImage, 3000);
+
+const courseItemsContainer = document.getElementById("courseitem");
+const rightButton = document.getElementById("right-button");
+const leftButton = document.getElementById("left-button");
+
+rightButton.addEventListener("click", () => {
+  courseItemsContainer.scroll({
+    left: (courseItemsContainer.scrollLeft += 200),
+    behavior: "smooth",
+  });
+});
+
+leftButton.addEventListener("click", () => {
+  courseItemsContainer.scroll({
+    left: (courseItemsContainer.scrollLeft -= 200),
+    behavior: "smooth",
+  });
+});

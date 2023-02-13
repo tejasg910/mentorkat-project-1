@@ -5,6 +5,10 @@
   font-family: "Manrope", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 nav {
   padding: 1rem 2rem;
 }
@@ -81,8 +85,9 @@ nav .profile i:nth-child(-n + 2) {
 .course-items .card {
   width: 250px;
   box-shadow: 0 4px 16px hsl(0deg 0% 75% / 25%);
-  overflow: hidden;
+
   margin-top: 1rem;
+  margin-right: 10px;
 }
 .course-items .card h4 {
   max-width: 100%;
@@ -111,4 +116,14 @@ nav .profile i:nth-child(-n + 2) {
   border: none;
   border-radius: 4px;
   margin-top: 10px;
+}
+.course-items {
+  overflow-x: scroll;
+  will-change: scroll-position;
+  transition: all 0.4s ease-in;
+  scroll-behavior: smooth;
+}
+
+.course-items::-webkit-scrollbar {
+  display: none;
 }
