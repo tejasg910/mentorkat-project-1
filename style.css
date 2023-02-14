@@ -32,6 +32,10 @@ nav .profile i:nth-child(-n + 2) {
   margin: 0 5px;
 }
 
+nav .profile i {
+  cursor: pointer;
+}
+
 .carousel {
   position: relative;
   width: 100%;
@@ -75,12 +79,14 @@ nav .profile i:nth-child(-n + 2) {
   border-radius: 5px;
   padding: 4px 7px;
   margin: 0 5px;
+  cursor: pointer;
 }
 .courses .course-tab .course-buttons i {
   padding: 4px;
   border: 1px solid black;
   border-radius: 2px;
   margin: 0 5px;
+  cursor: pointer;
 }
 .course-items .card {
   width: 250px;
@@ -118,6 +124,7 @@ nav .profile i:nth-child(-n + 2) {
   border-radius: 4px;
   margin-top: 10px;
   color: white;
+  cursor: pointer;
 }
 .course-items {
   overflow-x: scroll;
@@ -342,6 +349,7 @@ footer .links .division ul li {
   padding: 0.5rem 0;
   font-size: 15px;
   font-weight: lighter;
+  cursor: pointer;
 }
 
 footer .links .services .division-links {
