@@ -271,3 +271,86 @@ nav .profile i:nth-child(-n + 2) {
 .student .studentcard-container::-webkit-scrollbar {
   display: none;
 }
+.question-section {
+  padding: 1rem;
+}
+.question-section .question {
+  width: 100%;
+  /* min-height: 60px; */
+  /* border: 1px solid black; */
+  font-size: 20px;
+
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.question-section .box i {
+}
+
+.question-section .box .content {
+  /* display: none; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.1s;
+}
+
+.question-section .box .active {
+  transition: max-height 0.9s;
+  max-height: 100vh;
+}
+.question-section .box {
+  margin: 1rem 1rem 1rem 0;
+  border: 1px solid grey;
+  padding: 15px;
+  border-radius: 7px;
+}
+
+footer {
+  min-height: 400px;
+  background-color: black;
+  padding: 4rem;
+  color: rgba(255, 255, 255, 0.79);
+}
+
+footer .links .contact .mentor {
+  font-weight: bold;
+}
+
+footer .links .contact .kart {
+  color: #ff7070;
+  font-weight: lighter;
+}
+
+footer .links .contact .email {
+  padding: 1rem 0;
+}
+
+footer .links .contact .mobile {
+  padding: 1rem 0;
+}
+
+footer .links .contact .social {
+  padding: 1rem 0;
+}
+
+footer .links .contact .social img {
+  padding-right: 10px;
+}
+
+footer .links .division ul li {
+  list-style: none;
+  padding: 0.5rem 0;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+footer .links .services .division-links {
+  padding: 1rem 0;
+}
+
+footer a {
+  text-decoration: none;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.823);
+  margin-right: 2rem;
+}

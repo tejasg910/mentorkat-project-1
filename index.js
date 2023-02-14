@@ -32,3 +32,21 @@ leftButton.addEventListener("click", () => {
     behavior: "smooth",
   });
 });
+
+const accordianButton = document.querySelectorAll(
+  ".question-section .box .question"
+);
+
+accordianButton.forEach((btn) => {
+  btn.addEventListener("click", () => {
+    const content = btn.nextElementSibling;
+    content.classList.toggle("active");
+    btn.classList.toggle("active");
+
+    // if (content.style.display == "none") {
+    //   content.style.display = "block";
+    // } else {
+    //   content.style.display = "none";
+    // }
+  });
+});
