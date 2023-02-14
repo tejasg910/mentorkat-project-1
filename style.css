@@ -85,9 +85,10 @@ nav .profile i:nth-child(-n + 2) {
 .course-items .card {
   width: 250px;
   box-shadow: 0 4px 16px hsl(0deg 0% 75% / 25%);
-
+  border-radius: 5px;
   margin-top: 1rem;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .course-items .card h4 {
   max-width: 100%;
@@ -152,4 +153,121 @@ nav .profile i:nth-child(-n + 2) {
 
 .feature-card .feature-box {
   margin: 2rem 0;
+}
+
+.coursedetails {
+  background-color: #3882809a;
+  min-height: 450px;
+  padding: 2rem;
+}
+
+.coursedetails .detailsintro {
+  width: 700px;
+  font-size: 19px;
+}
+
+.coursedetails .detailsintro h3 {
+  padding-bottom: 1rem;
+}
+.coursedetails .courses .card {
+  width: auto;
+  margin: 1rem;
+  background-color: #388280;
+  border-radius: 7px;
+  padding: 0.5rem 1rem 0.5rem 0.5rem;
+
+  color: white;
+  -webkit-box-shadow: -4px 7px 30px -7px rgba(0, 0, 0, 0.44);
+  -moz-box-shadow: -4px 7px 30px -7px rgba(0, 0, 0, 0.44);
+  box-shadow: -4px 7px 30px -7px rgba(0, 0, 0, 0.44);
+}
+.courses .card i {
+  margin: 10px;
+}
+.courses .card {
+}
+.coursedetails .courses {
+  flex-wrap: wrap;
+}
+
+.coursedetails .sessionsbutton {
+  background-color: transparent;
+  border: 1px solid black;
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mentors {
+  padding: 2rem;
+}
+.mentors .mentorsintro .content-box {
+  width: 700px;
+}
+.mentors .mentors-list {
+  width: 200px;
+  box-shadow: 0px 8px 20px rgba(15, 17, 19, 0.04);
+}
+.mentors .mentors-list img {
+  width: 150px;
+  height: 200px;
+}
+.mentors .mentors-list p {
+  font-size: 15px;
+}
+
+.mentors .mentors-list {
+  padding: 1rem;
+  border-radius: 15px;
+  margin: 1rem;
+}
+
+.mentors .mentors-list-container {
+  margin: 1rem;
+  flex-wrap: wrap;
+}
+
+.student .studentintro .second {
+  color: #ff725e;
+}
+.student {
+  padding: 2rem;
+}
+.getsession {
+  height: 300px;
+  width: 100vw;
+}
+.getsession img {
+  height: 100%;
+  width: 100%;
+}
+
+.student .studentcards {
+  min-width: 300px;
+  background-color: #c9c9c973;
+  padding: 3rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  margin: 1rem;
+}
+
+.student .studentcards .company {
+  width: 70px;
+  height: 30px;
+}
+
+.student .studentcards .user {
+  position: absolute;
+  top: -80px;
+}
+
+.student .studentcard-container {
+  padding-top: 7rem;
+  width: auto;
+  overflow-x: scroll;
+  will-change: scroll-position;
+}
+
+.student .studentcard-container::-webkit-scrollbar {
+  display: none;
 }
