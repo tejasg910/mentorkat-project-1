@@ -50,3 +50,18 @@ accordianButton.forEach((btn) => {
     // }
   });
 });
+
+const sidebar = document.querySelector("nav .sidebar");
+
+const showSidebar = document.querySelector("#showSidebar");
+const closeSidebar = document.querySelector("#closeSidebar");
+
+showSidebar.addEventListener("click", () => {
+  sidebar.classList.toggle("active-sidebar");
+  console.log(sidebar);
+});
+
+closeSidebar.addEventListener("click", () => {
+  sidebar.classList.toggle("active-sidebar");
+});
+console.log(sidebar);

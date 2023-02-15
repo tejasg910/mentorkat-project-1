@@ -34,7 +34,33 @@
         <div class="profile">
             <i class="fa-regular fa-bell"></i>
             <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-angle-down"></i>
+            <i class="fa-solid fa-angle-down" id="showSidebar"></i>
+        </div>
+        <div class="absolute sidebar d-flex justify-content-center align-items-center">
+            <div class="sidebar-content">
+
+
+
+                <ul>
+                    <li>Find Mentor</li>
+                </ul>
+                <ul>
+                    <li>Dashboard</li>
+                </ul>
+                <ul>
+                    <li>Live sessions</li>
+                </ul>
+                <ul>
+                    <li>Edit profile</li>
+                </ul>
+                <ul>
+                    <li>Explore courses</li>
+                </ul>
+                <ul>
+                    <li>Log out</li>
+                </ul>
+                <button id="closeSidebar">close</button>
+            </div>
         </div>
     </nav>
 
@@ -51,7 +77,7 @@
     <section class="courses">
         <h3>Our Courses</h3>
         <div class="course-tab d-flex justify-content-space-between">
-            <div>
+            <div class="course-links">
                 <a href="#" class="activecourse">Free Sessions</a>
                 <a href="#">Paid Sessions</a>
 
@@ -251,8 +277,7 @@
                     </div>
                     <div>
                         <h4>
-                            Free Programs and
-                            Courses
+                            Get certified
                         </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, aperiam?</p>
                     </div>
@@ -270,8 +295,7 @@
                     </div>
                     <div>
                         <h4>
-                            Free Programs and
-                            Courses
+                            Recorded sessions
                         </h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, aperiam?</p>
                     </div>
@@ -575,7 +599,7 @@
 
     <footer>
         <div class="links d-flex justify-content-space-between">
-            <div class="contact">
+            <div class="contact division">
                 <div class="d-flex">
                     <img src="assets/White-Full 1.png" alt="">
                     <h2 class="mentor">Mentor</h2>
@@ -613,8 +637,11 @@
                 </div>
             </div>
             <div class="division">
-                <h3>Company</h3>
-                <div class="divisiion-links">
+                <div>
+                    <h3>Company</h3>
+                </div>
+
+                <div class="division-links">
                     <ul>
                         <li>About us</li>
                         <li>Our team</li>
@@ -628,7 +655,7 @@
             </div>
             <div class="division">
                 <h3>More</h3>
-                <div class="divisiion-links">
+                <div class="division-links">
                     <ul>
                         <li>Blogs</li>
                         <li>For campus</li>
