@@ -50,7 +50,7 @@ nav .sidebar {
 }
 
 .active-sidebar {
-  width: 500px;
+  width: 500px !important;
 }
 nav .sidebar ul li {
   list-style: none;
